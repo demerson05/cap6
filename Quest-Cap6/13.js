@@ -13,7 +13,7 @@ const exibirResultado = (valorReal, valorDolar) => {
 
 const conversorDeMoeda = () => {
     const valorReal = obterValorEmReal();
-    const taxaDeCambio = 6.2; // Exemplo de taxa de câmbio (R$1 = US$5.2)
+    const taxaDeCambio = 6.1; // Exemplo de taxa de câmbio (R$1 = US$5.2)
     
     if (isNaN(valorReal) || valorReal <= 0) {
         console.log("Por favor, insira um valor válido em Real.");
